@@ -85,6 +85,7 @@ In particular, extending the simulation to include different levels of sparsity 
 Moreover, a second data-generation method could be useful to protect against any underlying biases that the data-generating mechanism may have.
 Finally, a real data analysis is important to test the biological plausibility of the results produced by treating zeros as censored. It would be good to explore two types of real RNA-seq data, a whole/bulk RNA-seq data set, and a single-cell RNA-seq dataset. Choosing a dataset that has been well-explored and biologically interpretable is ideal, as it will enable us to investigate if the resulting DEGs found by a censored-zero approach are meaningful. 
 
+\newpage
 
 ## Appendix
 
