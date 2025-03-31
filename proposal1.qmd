@@ -66,7 +66,7 @@ Indeed, Figure 1 demonstrates that the power of CAMP follows the same pattern as
 Additionally, CAMP had a well-controlled type 1 error rate (see Table 1 in the appendix).
 Performance appears to primarily depend on sample size and the number of true DEGs, rather than the initial number of genes in the dataset.
 
-```{r pwr-tbl, echo = FALSE, fig.width=6, fig.height=6, fig.cap= "Power table displaying results across different simulation scenarios. There are two numbers above each chart: the top number is the total number of initial genes in the dataset; the bottom number is the proportion of true DEGs. For example, there are 1000 DEGs in the second chart in the top row."}
+```{r pwr-tbl, echo = FALSE, fig.width=6, fig.height=5, fig.cap= "Power table displaying results across different simulation scenarios. There are two numbers above each chart: the top number is the total number of initial genes in the dataset; the bottom number is the proportion of true DEGs. For example, there are 1000 DEGs in the second chart in the top row."}
 library(ggplot2)
 sim.results.df <- readRDS("simulation/sim_results.rds")
 ggplot(sim.results.df, aes(x = as.factor(n.per.grp), y = power, 
