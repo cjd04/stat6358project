@@ -1,5 +1,5 @@
 ---
-title: "STAT 6358 Project Proposal"
+title: "STAT 6358 Project Proposal - Adopting the CAMP Framework of Censoring Zeros for RNA-Seq."
 author: "Callum Doyle"
 date: "`r Sys.Date()`"
 format: pdf
