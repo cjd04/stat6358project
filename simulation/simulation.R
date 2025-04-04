@@ -9,6 +9,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("compcodeR")
 
 library(compcodeR)
+library(camp)
 
 # setwd("~/Desktop/SMU/Class stuff/2025 Spring/STAT6358 High Throughput Data Analysis/stat6358project/simulation")
 
