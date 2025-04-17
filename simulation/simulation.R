@@ -177,7 +177,7 @@ simTest_comparison <- function(n.genes = 12500, n.per.grp = 5, n.trueDEGs = 0.1)
   
   #### edgeR ####
   #print("working on edgeR now")
-  yy <- DGEList(counts = XX, group = grp) # raw count matrix and groups/condtions
+  yy <- DGEList(counts = XX, group = grp) # raw count matrix and groups/conditions
   ## filter out low-expressed genes. 
   keep <- filterByExpr(yy) 
   yy <- yy[keep,]
